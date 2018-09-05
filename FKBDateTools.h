@@ -19,7 +19,7 @@
 //计算月份
 + (NSInteger)startMonthDate:(NSDate *)startMonthDate endMonthDate:(NSDate *)endMonthDate;
 
-//麦德龙津贴次数计算逻辑
+//特定项目计算规则
 +(CGFloat)startDateTime:(NSString *)startDateTime endDateTime:(NSString *)endDateTime;
 
 @end

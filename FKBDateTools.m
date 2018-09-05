@@ -156,7 +156,7 @@
     return [comps day] + time;
 }
 
-//麦德龙计算津贴次数规则
+//特定项目计算规则
 +(CGFloat)startDateTime:(NSString *)startDateTime endDateTime:(NSString *)endDateTime {
     if (startDateTime.length > 0 && startDateTime.length > 10 && endDateTime.length > 0 && endDateTime.length > 10) {
         //先计算两个日期之间的天数
